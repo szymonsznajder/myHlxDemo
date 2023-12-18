@@ -12,10 +12,13 @@ module.exports = {
   },
   rules: {
     // allow reassigning param
-    'no-param-reassign': [2, { props: false }],
+    'no-param-reassign': 0,
     'linebreak-style': ['error', 'unix'],
-    'import/extensions': ['error', {
-      js: 'always',
-    }],
+    'import/extensions': [
+      'error',
+      {
+        js: 'always',
+      },
+    ],
   },
 };
